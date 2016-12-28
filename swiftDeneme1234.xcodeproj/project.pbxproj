@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D17634731E13EBD70081B2A6 /* clap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D17634721E13EBD70081B2A6 /* clap.mp3 */; };
+		D1A084071E13F202006EDC3C /* dogumGunuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A084061E13F202006EDC3C /* dogumGunuViewController.swift */; };
 		D1AFEE841E13E0E40073F56B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AFEE831E13E0E40073F56B /* AppDelegate.swift */; };
-		D1AFEE861E13E0E40073F56B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AFEE851E13E0E40073F56B /* ViewController.swift */; };
 		D1AFEE891E13E0E40073F56B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1AFEE871E13E0E40073F56B /* Main.storyboard */; };
 		D1AFEE8B1E13E0E40073F56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1AFEE8A1E13E0E40073F56B /* Assets.xcassets */; };
 		D1AFEE8E1E13E0E40073F56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1AFEE8C1E13E0E40073F56B /* LaunchScreen.storyboard */; };
+		D1AFEE961E13E4240073F56B /* FinalHesapmalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AFEE951E13E4240073F56B /* FinalHesapmalaViewController.swift */; };
+		D1E978431E13E663003D9C84 /* FinalSonucViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E978421E13E663003D9C84 /* FinalSonucViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D17634721E13EBD70081B2A6 /* clap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clap.mp3; sourceTree = "<group>"; };
+		D1A084061E13F202006EDC3C /* dogumGunuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dogumGunuViewController.swift; sourceTree = "<group>"; };
 		D1AFEE801E13E0E40073F56B /* swiftDeneme1234.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftDeneme1234.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1AFEE831E13E0E40073F56B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1AFEE851E13E0E40073F56B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1AFEE881E13E0E40073F56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1AFEE8A1E13E0E40073F56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1AFEE8D1E13E0E40073F56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1AFEE8F1E13E0E40073F56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1AFEE951E13E4240073F56B /* FinalHesapmalaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalHesapmalaViewController.swift; sourceTree = "<group>"; };
+		D1E978421E13E663003D9C84 /* FinalSonucViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalSonucViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +60,14 @@
 		D1AFEE821E13E0E40073F56B /* swiftDeneme1234 */ = {
 			isa = PBXGroup;
 			children = (
+				D1AFEE951E13E4240073F56B /* FinalHesapmalaViewController.swift */,
 				D1AFEE831E13E0E40073F56B /* AppDelegate.swift */,
-				D1AFEE851E13E0E40073F56B /* ViewController.swift */,
 				D1AFEE871E13E0E40073F56B /* Main.storyboard */,
+				D1A084061E13F202006EDC3C /* dogumGunuViewController.swift */,
+				D1E978421E13E663003D9C84 /* FinalSonucViewController.swift */,
 				D1AFEE8A1E13E0E40073F56B /* Assets.xcassets */,
 				D1AFEE8C1E13E0E40073F56B /* LaunchScreen.storyboard */,
+				D17634721E13EBD70081B2A6 /* clap.mp3 */,
 				D1AFEE8F1E13E0E40073F56B /* Info.plist */,
 			);
 			path = swiftDeneme1234;
@@ -126,6 +135,7 @@
 			files = (
 				D1AFEE8E1E13E0E40073F56B /* LaunchScreen.storyboard in Resources */,
 				D1AFEE8B1E13E0E40073F56B /* Assets.xcassets in Resources */,
+				D17634731E13EBD70081B2A6 /* clap.mp3 in Resources */,
 				D1AFEE891E13E0E40073F56B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1AFEE861E13E0E40073F56B /* ViewController.swift in Sources */,
+				D1AFEE961E13E4240073F56B /* FinalHesapmalaViewController.swift in Sources */,
 				D1AFEE841E13E0E40073F56B /* AppDelegate.swift in Sources */,
+				D1A084071E13F202006EDC3C /* dogumGunuViewController.swift in Sources */,
+				D1E978431E13E663003D9C84 /* FinalSonucViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +314,7 @@
 				D1AFEE941E13E0E40073F56B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
